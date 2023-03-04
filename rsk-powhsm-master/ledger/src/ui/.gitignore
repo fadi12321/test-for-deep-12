@@ -1,0 +1,9 @@
+bin
+debug
+dep
+obj
+static-analysis
+src/glyphs.c
+src/glyphs.h
+test/**/*.o
+test/**/*.out

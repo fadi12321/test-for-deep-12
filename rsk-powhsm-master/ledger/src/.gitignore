@@ -1,0 +1,15 @@
+bin/
+debug/
+dep/
+obj/
+
+# TCPSigner
+tcpsigner/tcpsigner
+tcpsigner/objs
+tcpsigner/test/**/*.o
+tcpsigner/test/**/test.out
+tcpsigner/**/*.json
+
+# Icons hex
+signer/icon.hex
+ui/icon.hex
