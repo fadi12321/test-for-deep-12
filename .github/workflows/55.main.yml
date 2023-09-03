@@ -4,6 +4,6 @@ jobs:
   dastardly-scan:
     runs-on: ubuntu-latest
     steps:
-      - uses: PortSwigger/dastardly-github-action@v1
+      - uses: PortSwigger/dastardly-github-action@v1.0.0
         with:
           url: https://google.com
