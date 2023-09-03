@@ -1,0 +1,9 @@
+name: Dastardly Scan
+on: push
+jobs:
+  dastardly-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: PortSwigger/dastardly-github-action@v1
+        with:
+          url: https://google.com
